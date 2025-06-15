@@ -28,6 +28,34 @@ img {
     position: relative;
 }
 
+#navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #191f33;
+  }
+    /* Navbar scroll */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  An element
+
 /* BIG text styling for the hero section text */
 .hero-text {
     font-size: 4em;
