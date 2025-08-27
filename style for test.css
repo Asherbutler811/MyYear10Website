@@ -111,3 +111,10 @@ img {
     text-align: right;
     padding: 3em 3em;
 }
+
+.footer-images img {
+    width: 65px;      /* Adjust size */
+    height: auto;
+    margin: 0 10px;   /* Spacing between images */
+    vertical-align: middle;
+  }
